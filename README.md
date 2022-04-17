@@ -1,10 +1,6 @@
-# Getting Started with Create React App
+### `npm install`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+Uygulamanın Modüllerini indirmek için.
 
 ### `npm start`
 
@@ -14,57 +10,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Arayüzü
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![React App - Google Chrome 17 04 2022 09_30_00](https://user-images.githubusercontent.com/98321848/163704281-70cbc15d-3687-4f21-bf77-164d0512bf80.png)
+![React App - Google Chrome 17 04 2022 09_30_21](https://user-images.githubusercontent.com/98321848/163704282-ad520883-b4ee-4b5d-9247-a83dccea61c5.png)
+![React App - Google Chrome 17 04 2022 09_30_34](https://user-images.githubusercontent.com/98321848/163704285-aa10294c-b936-48eb-907b-04e73714a2a1.png)
+![React App - Google Chrome 17 04 2022 09_30_59](https://user-images.githubusercontent.com/98321848/163704286-6cd2b24c-61cd-4ca8-9448-dc92acbab08b.png)
+![React App - Google Chrome 17 04 2022 09_31_28](https://user-images.githubusercontent.com/98321848/163704287-bf7fcff6-b9b8-4f9b-b9e6-2641b0616ab2.png)
+![React App - Google Chrome 17 04 2022 09_31_54](https://user-images.githubusercontent.com/98321848/163704290-1f66b721-42fa-4816-87f9-fe83664680d3.png)
+![React App - Google Chrome 17 04 2022 09_32_46](https://user-images.githubusercontent.com/98321848/163704293-aba2a9d1-9f14-4c28-988e-6b9a9d95e899.png)
+![React App - Google Chrome 17 04 2022 09_32_56](https://user-images.githubusercontent.com/98321848/163704295-b840f57e-859c-4126-a1c9-bb86b26e08c7.png)
+![React App - Google Chrome 17 04 2022 09_33_01](https://user-images.githubusercontent.com/98321848/163704296-db89f556-24ca-4076-80d7-3f1c8972dd0c.png)

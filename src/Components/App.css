@@ -1,0 +1,343 @@
+.calculate {
+  position: fixed;
+  width: 320px;
+  min-height: 600px;
+  background: linear-gradient(to top, #E9e9e9 , #fbfbfb );
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  margin: 60px 100px;
+  overflow: auto;
+  box-shadow: 0px 0px 3px -2px #000000;
+}
+.calculateDark{
+  position: fixed;
+  width: 320px;
+  min-height: 600px;
+  background: linear-gradient(to top, #292a2b , #1f2023 );
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  margin: 60px 100px;
+  overflow: auto;
+  box-shadow: 0px 0px 3px -2px #000000;
+}
+.top{
+  margin-top: 30px;
+  margin-left: 120px;
+}
+.topItem{
+  display: inline-block;
+  background-color: #a9dcfd;
+  border-radius: 25px;
+}
+.topItemDark{
+  display: inline-block;
+  background-color: #1b6a9c;
+  border-radius: 25px;
+}
+.topItem2{
+  display: inline-block;
+  margin-left: 90px;
+}
+.butonBir {
+  text-decoration: none;
+  color: inherit;
+  border: 0px solid #f2f2f2;
+  background-color: #d1e4f9;
+  padding: 0px 10px;
+  border-radius: 25px;
+  margin-left: -5px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+.butonBir:focus{
+  outline: 0 !important;
+}
+.butonIki {
+  text-decoration: none;
+  color: inherit;
+  border: 0px solid #8a8989;
+  background-color: #a9dcfd;
+  padding: 0px 10px;
+  border-radius: 25px;
+  margin-left: -5px;
+  position: relative;
+  cursor: pointer;
+}
+.butonIki:focus{
+  outline: 0 !important;
+}
+.butonBirDark {
+  text-decoration: none;
+  color: inherit;
+  border: 0px solid #f2f2f2;
+  background-color: #1b6a9c;
+  padding: 0px 10px;
+  border-radius: 25px;
+  margin-left: -5px;
+  position: relative;
+  cursor: pointer;
+}
+.butonBirDark:focus{
+  outline: 0 !important;
+}
+.butonIkiDark {
+  text-decoration: none;
+  color: rgb(177, 176, 176);
+  border: 0px solid #f2f2f2;
+  background-color: #003661;
+  padding: 0px 10px;
+  border-radius: 25px;
+  margin-left: -5px;
+  position: relative;
+  cursor: pointer;
+}
+.butonIkiDark:focus{
+  outline: 0 !important;
+}
+.butonb{
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.butonb:focus{
+  outline: 0 !important;
+}
+.butonb:active{
+  color: green !important;
+}
+.butonbDark{
+  text-decoration: none;
+  color: rgb(162, 156, 156);
+  border: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.butonbDark:focus{
+  outline: 0 !important;
+}
+
+.buton:active {
+  background-color: black;
+  color: white !important;
+}
+
+.toplam{
+  margin-top: 50px;
+}
+.faIcon1{
+  margin-left:20px ;
+}
+.faIcon1Dark{
+  margin-left:20px ;
+  color: white;
+}
+.toplamInput{
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  color: #939393;
+  text-align: right;
+  padding-right: 20px;
+  margin-top: 90px;
+}
+.toplamlari{
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  color: black;
+  text-align: right;
+  padding-right: 20px;
+  width: auto;
+ 
+}
+.toplamlariDark{
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  text-align: right;
+  padding-right: 20px;
+  width: auto;
+}
+.actions {
+  position: fixed;
+  background: linear-gradient(to right, #c6e0f6 , #91d8fd);
+  border-radius: 20px;
+  display: inline-block;
+  width: 320px;
+  height: 345px;
+}
+.actionsDark{
+  position: fixed;
+  background: linear-gradient(to right, #122836 10%, #184C67 100%);
+  border-radius: 20px;
+  display: inline-block;
+  width: 320px;
+  height: 345px;
+}
+
+.butonC{
+  text-decoration: none;
+  color: inherit;
+  border: 0px solid #f2f2f2;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 25px;
+ margin-left: 22px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.butonCDark{
+  text-decoration: none;
+  color: white;
+  border: 0px solid #f2f2f2;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 25px;
+ margin-left: 22px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.enUst{
+  margin-left: 35px;
+  margin-top: 10px;
+  background: linear-gradient(to right, #ddedf9, #bce4fb );
+  border-radius: 30px;
+}
+.enUstDark{
+  margin-left: 35px;
+  margin-top: 10px;
+  background: linear-gradient(to right, #0e202b, #103041 );
+  border-radius: 30px;
+}
+.rakamlar{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.butonRakam{
+  text-decoration: none;
+  color: inherit;
+  border: 0px solid #f2f2f2;
+  background-color: #d3e9fa;
+  padding: 10px 20px;
+  border-radius: 25px;
+ margin-left: 20px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.butonRakamDark{
+  text-decoration: none;
+  color: white;
+  border: 0px solid #f2f2f2;
+  background-color: #0d2030;
+  padding: 10px 20px;
+  border-radius: 25px;
+ margin-left: 20px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.solRakam{
+ display: inline-block;
+ margin-top: 13px;
+}
+.sagRakam{
+  display: inline-block;
+  background-color: #d3e9fa;
+  border-radius: 30px;  
+  margin-left: 10px;
+  padding: 5px;
+  height: 295px;
+}
+.sagRakamDark{
+  display: inline-block;
+  background-color: #0f3048;
+  border-radius: 30px;  
+  margin-left: 10px;
+  padding: 5px;
+  height: 295px;
+}
+.butonD{
+  text-decoration: none;
+  color: inherit;
+  border: 0px solid #f2f2f2;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 25px;
+ margin-left: 22px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.butonDDark{
+  text-decoration: none;
+  color: white;
+  border: 0px solid #f2f2f2;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 25px;
+ margin-left: 22px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+.butonE{
+  text-decoration: none;
+  color: inherit;
+  border: 0px solid #f2f2f2;
+  background-color: #c0dbef;
+  padding: 10px;
+  border-radius: 25px;
+  margin-left: -40px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+.butonEDark{
+  text-decoration: none;
+  color: white;
+  border: 0px solid #f2f2f2;
+  background-color: #0b1f2f;
+  padding: 10px;
+  border-radius: 25px;
+  margin-left: -40px;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+
+.hrColor{
+  width: 100px;
+  background-color: #6396c5;
+  border-radius: 10px;
+  border-top: 5px solid rgba(0, 0, 0, .1);
+}
+.hrColorDark{
+  width: 100px;
+  background-color: #3d76ab;
+  border-radius: 10px;
+  border-top: 5px solid rgba(0, 0, 0, .1);
+}

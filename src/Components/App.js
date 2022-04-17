@@ -2,25 +2,24 @@ import React, { useState } from "react";
 import "./App.css";
 import HistoryComponent from "./HistoryComponent";
 
-
 export const replacement = [
   {
     reg: /\*/g,
-    dest: '×'
-  }, {
+    dest: "×",
+  },
+  {
     reg: /\//g,
-    dest: '÷'
-  }
+    dest: "÷",
+  },
 ];
 
 function App() {
-  const [thema, setThema] = useState(""); 
+  const [thema, setThema] = useState("");
   const [result, setResult] = useState("");
   const [last, setLast] = useState("");
   const [cur, setCur] = useState("0");
-  const [ history , setHistory] = useState([]);
+  const [history, setHistory] = useState([]);
   const [openModal, setOpenModal] = useState(false);
-  
 
   const buttonClick = (type) => {
     const lastLetter = cur.slice(-1);
@@ -35,12 +34,12 @@ function App() {
           const output = eval(cur).toString();
           setLast(cur + "=");
           setResult(output);
-          history.push(cur + " = " + output)
+          history.push(cur + " = " + output);
         } catch (e) {
           console.log(e);
           setLast(cur + "=");
           setCur("0");
-          setResult("")
+          setResult("");
         }
         break;
       case "+":
@@ -55,7 +54,7 @@ function App() {
         if (
           (lastLetter === "*" && type === "-") ||
           (lastLetter === "/" && type === "-") ||
-          (lastLetter === "%" && type === "-") 
+          (lastLetter === "%" && type === "-")
         ) {
           setCur(cur + type);
           break;
@@ -84,16 +83,17 @@ function App() {
         }
         break;
       default:
-        setCur((cur === "0" || cur === "00") ? type : cur + type);
+        setCur(cur === "0" || cur === "00" ? type : cur + type);
         break;
     }
   };
 
-    let finalCur = cur, finalLast = last;
-    replacement.forEach((item) => {
-      finalCur = finalCur.replace(item.reg, item.dest);
-      finalLast = finalLast.replace(item.reg, item.dest);
-    });
+  let finalCur = cur,
+    finalLast = last;
+  replacement.forEach((item) => {
+    finalCur = finalCur.replace(item.reg, item.dest);
+    finalLast = finalLast.replace(item.reg, item.dest);
+  });
 
   return (
     <div className={`${thema === "dark" ? "calculateDark" : "calculate"}`}>
@@ -125,7 +125,9 @@ function App() {
           >
             <i className="fas fa-history" />
           </button>
-          {openModal && <HistoryComponent closeModal={setOpenModal} history={history}/>}
+          {openModal && (
+            <HistoryComponent closeModal={setOpenModal} history={history} />
+          )}
         </div>
       </div>
       <div className="toplam">
@@ -159,23 +161,20 @@ function App() {
               style={{ marginLeft: "0px" }}
               onClick={() => buttonClick("c")}
             >
-              {" "}
-              AC{" "}
+              AC
             </button>
             <button
               className={`${thema === "dark" ? "butonCDark" : "butonC"}`}
               onClick={() => buttonClick("+/-")}
             >
-              {" "}
-              +/-{" "}
+              +/-
             </button>
             <button
               className={`${thema === "dark" ? "butonCDark" : "butonC"}`}
               style={{ paddingLeft: "20px" }}
               onClick={() => buttonClick("%")}
             >
-              {" "}
-              %{" "}
+              %
             </button>
           </div>
           <div className="rakamlar">
@@ -185,8 +184,7 @@ function App() {
               }`}
               onClick={() => buttonClick("1")}
             >
-              {" "}
-              1{" "}
+              1
             </button>
             <button
               className={`${
@@ -194,8 +192,7 @@ function App() {
               }`}
               onClick={() => buttonClick("2")}
             >
-              {" "}
-              2{" "}
+              2
             </button>
             <button
               className={`${
@@ -203,8 +200,7 @@ function App() {
               }`}
               onClick={() => buttonClick("3")}
             >
-              {" "}
-              3{" "}
+              3
             </button>
           </div>
           <div className="rakamlar">
@@ -214,8 +210,7 @@ function App() {
               }`}
               onClick={() => buttonClick("4")}
             >
-              {" "}
-              4{" "}
+              4
             </button>
             <button
               className={`${
@@ -223,8 +218,7 @@ function App() {
               }`}
               onClick={() => buttonClick("5")}
             >
-              {" "}
-              5{" "}
+              5
             </button>
             <button
               className={`${
@@ -232,8 +226,7 @@ function App() {
               }`}
               onClick={() => buttonClick("6")}
             >
-              {" "}
-              6{" "}
+              6
             </button>
           </div>
           <div className="rakamlar">
@@ -243,8 +236,7 @@ function App() {
               }`}
               onClick={() => buttonClick("7")}
             >
-              {" "}
-              7{" "}
+              7
             </button>
             <button
               className={`${
@@ -252,8 +244,7 @@ function App() {
               }`}
               onClick={() => buttonClick("8")}
             >
-              {" "}
-              8{" "}
+              8
             </button>
             <button
               className={`${
@@ -261,8 +252,7 @@ function App() {
               }`}
               onClick={() => buttonClick("9")}
             >
-              {" "}
-              9{" "}
+              9
             </button>
           </div>
           <div className="rakamlar">
@@ -273,8 +263,7 @@ function App() {
               style={{ width: "50px" }}
               onClick={() => buttonClick(".")}
             >
-              {" "}
-              .{" "}
+              .
             </button>
             <button
               className={`${
@@ -282,8 +271,7 @@ function App() {
               }`}
               onClick={() => buttonClick("0")}
             >
-              {" "}
-              0{" "}
+              0
             </button>
             <button
               className={`${
@@ -292,8 +280,7 @@ function App() {
               style={{ width: "50px", padding: "10px 5px" }}
               onClick={() => buttonClick("00")}
             >
-              {" "}
-              00{" "}
+              00
             </button>
           </div>
         </div>

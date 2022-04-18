@@ -10,6 +10,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### Video
+https://user-images.githubusercontent.com/98321848/163761071-58db179d-a970-4ea2-8de1-d3be788e30d9.mp4
+
 ### Arayüzü
 
 ![React App - Google Chrome 17 04 2022 09_30_00](https://user-images.githubusercontent.com/98321848/163704281-70cbc15d-3687-4f21-bf77-164d0512bf80.png)
